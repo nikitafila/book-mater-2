@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1150px;
   width: 90%;
 }
 @media #{$medium-and-up} {
@@ -9,6 +9,11 @@
   }
 }
 @media #{$large-and-up} {
+  .container {
+    width: 85%;
+  }
+}
+@media #{$extra-large-and-up} {
   .container {
     width: 70%;
   }
